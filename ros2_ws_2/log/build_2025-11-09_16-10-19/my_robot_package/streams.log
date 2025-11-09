@@ -1,0 +1,41 @@
+[0.747s] Invoking command in '/home/gregsten/Documents/Embedded_ROS/ros2_ws_2/src/my_robot_package': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/gregsten/Documents/Embedded_ROS/ros2_ws_2/build/my_robot_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/gregsten/Documents/Embedded_ROS/ros2_ws_2/install/my_robot_package/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_robot_package build --build-base /home/gregsten/Documents/Embedded_ROS/ros2_ws_2/build/my_robot_package/build install --record /home/gregsten/Documents/Embedded_ROS/ros2_ws_2/build/my_robot_package/install.log --single-version-externally-managed install_data
+[0.972s] running egg_info
+[0.972s] creating ../../build/my_robot_package/my_robot_package.egg-info
+[0.988s] writing ../../build/my_robot_package/my_robot_package.egg-info/PKG-INFO
+[0.988s] writing dependency_links to ../../build/my_robot_package/my_robot_package.egg-info/dependency_links.txt
+[0.988s] writing entry points to ../../build/my_robot_package/my_robot_package.egg-info/entry_points.txt
+[0.988s] writing requirements to ../../build/my_robot_package/my_robot_package.egg-info/requires.txt
+[0.988s] writing top-level names to ../../build/my_robot_package/my_robot_package.egg-info/top_level.txt
+[0.988s] writing manifest file '../../build/my_robot_package/my_robot_package.egg-info/SOURCES.txt'
+[1.021s] reading manifest file '../../build/my_robot_package/my_robot_package.egg-info/SOURCES.txt'
+[1.022s] writing manifest file '../../build/my_robot_package/my_robot_package.egg-info/SOURCES.txt'
+[1.022s] running build
+[1.022s] running build_py
+[1.022s] creating /home/gregsten/Documents/Embedded_ROS/ros2_ws_2/build/my_robot_package/build
+[1.022s] creating /home/gregsten/Documents/Embedded_ROS/ros2_ws_2/build/my_robot_package/build/lib
+[1.022s] creating /home/gregsten/Documents/Embedded_ROS/ros2_ws_2/build/my_robot_package/build/lib/my_robot_package
+[1.022s] copying my_robot_package/serial_image_sender.py -> /home/gregsten/Documents/Embedded_ROS/ros2_ws_2/build/my_robot_package/build/lib/my_robot_package
+[1.023s] copying my_robot_package/__init__.py -> /home/gregsten/Documents/Embedded_ROS/ros2_ws_2/build/my_robot_package/build/lib/my_robot_package
+[1.023s] running install
+[1.028s] running install_lib
+[1.045s] creating /home/gregsten/Documents/Embedded_ROS/ros2_ws_2/install/my_robot_package/lib/python3.12/site-packages/my_robot_package
+[1.045s] copying /home/gregsten/Documents/Embedded_ROS/ros2_ws_2/build/my_robot_package/build/lib/my_robot_package/serial_image_sender.py -> /home/gregsten/Documents/Embedded_ROS/ros2_ws_2/install/my_robot_package/lib/python3.12/site-packages/my_robot_package
+[1.045s] copying /home/gregsten/Documents/Embedded_ROS/ros2_ws_2/build/my_robot_package/build/lib/my_robot_package/__init__.py -> /home/gregsten/Documents/Embedded_ROS/ros2_ws_2/install/my_robot_package/lib/python3.12/site-packages/my_robot_package
+[1.045s] byte-compiling /home/gregsten/Documents/Embedded_ROS/ros2_ws_2/install/my_robot_package/lib/python3.12/site-packages/my_robot_package/serial_image_sender.py to serial_image_sender.cpython-312.pyc
+[1.047s] byte-compiling /home/gregsten/Documents/Embedded_ROS/ros2_ws_2/install/my_robot_package/lib/python3.12/site-packages/my_robot_package/__init__.py to __init__.cpython-312.pyc
+[1.047s] running install_data
+[1.047s] creating /home/gregsten/Documents/Embedded_ROS/ros2_ws_2/install/my_robot_package/share/ament_index
+[1.047s] creating /home/gregsten/Documents/Embedded_ROS/ros2_ws_2/install/my_robot_package/share/ament_index/resource_index
+[1.047s] creating /home/gregsten/Documents/Embedded_ROS/ros2_ws_2/install/my_robot_package/share/ament_index/resource_index/packages
+[1.047s] copying resource/my_robot_package -> /home/gregsten/Documents/Embedded_ROS/ros2_ws_2/install/my_robot_package/share/ament_index/resource_index/packages
+[1.047s] copying package.xml -> /home/gregsten/Documents/Embedded_ROS/ros2_ws_2/install/my_robot_package/share/my_robot_package
+[1.047s] creating /home/gregsten/Documents/Embedded_ROS/ros2_ws_2/install/my_robot_package/share/my_robot_package/launch
+[1.047s] copying launch/serial_image_sender.launch.py -> /home/gregsten/Documents/Embedded_ROS/ros2_ws_2/install/my_robot_package/share/my_robot_package/launch
+[1.048s] creating /home/gregsten/Documents/Embedded_ROS/ros2_ws_2/install/my_robot_package/share/my_robot_package/config
+[1.048s] copying config/params.yaml -> /home/gregsten/Documents/Embedded_ROS/ros2_ws_2/install/my_robot_package/share/my_robot_package/config
+[1.048s] running install_egg_info
+[1.065s] Copying ../../build/my_robot_package/my_robot_package.egg-info to /home/gregsten/Documents/Embedded_ROS/ros2_ws_2/install/my_robot_package/lib/python3.12/site-packages/my_robot_package-0.1.0-py3.12.egg-info
+[1.066s] running install_scripts
+[1.176s] Installing serial_image_sender script to /home/gregsten/Documents/Embedded_ROS/ros2_ws_2/install/my_robot_package/lib/my_robot_package
+[1.176s] writing list of installed files to '/home/gregsten/Documents/Embedded_ROS/ros2_ws_2/build/my_robot_package/install.log'
+[1.196s] Invoked command in '/home/gregsten/Documents/Embedded_ROS/ros2_ws_2/src/my_robot_package' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/gregsten/Documents/Embedded_ROS/ros2_ws_2/build/my_robot_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/gregsten/Documents/Embedded_ROS/ros2_ws_2/install/my_robot_package/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_robot_package build --build-base /home/gregsten/Documents/Embedded_ROS/ros2_ws_2/build/my_robot_package/build install --record /home/gregsten/Documents/Embedded_ROS/ros2_ws_2/build/my_robot_package/install.log --single-version-externally-managed install_data

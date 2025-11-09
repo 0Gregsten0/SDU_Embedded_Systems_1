@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: my-robot-package
+Version: 0.1.0
+Summary: Minimal rclpy package for ROS 2 Jazzy
+Maintainer: Gregsten
+Maintainer-email: gt_schweiz@gmx.ch
+License: MIT

@@ -1,0 +1,4 @@
+my_robot_node:
+  ros__parameters:
+    speed_limit: 1.5
+    enable_logging: true

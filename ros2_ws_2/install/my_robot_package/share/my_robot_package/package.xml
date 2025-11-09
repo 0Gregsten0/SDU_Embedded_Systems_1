@@ -1,0 +1,18 @@
+<package format="3">
+  <name>my_robot_package</name>
+  <version>0.1.0</version>
+  <description>Minimal rclpy package for ROS 2 Jazzy</description>
+  <maintainer email="gt_schweiz@gmx.com">You</maintainer>
+  <license>MIT</license>
+
+  <buildtool_depend>ament_python</buildtool_depend>
+
+  <export>
+    <build_type>ament_python</build_type>
+  </export>
+
+  <exec_depend>rclpy</exec_depend>
+  <exec_depend>std_msgs</exec_depend>
+  <exec_depend>v4l2_camera</exec_depend>
+
+</package>

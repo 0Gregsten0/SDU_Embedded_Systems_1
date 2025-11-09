@@ -1,0 +1,2 @@
+[console_scripts]
+serial_image_sender = my_robot_package.serial_image_sender:main
