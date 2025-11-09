@@ -1,0 +1,16 @@
+<package format="3">
+  <name>uart_image_receiver</name>
+  <version>0.1.0</version>
+  <description>ROS 2 Humble node that receives JPEG image frames over UART and keeps only the last N frames on disk.</description>
+  <maintainer email="you@example.com">You</maintainer>
+  <license>MIT</license>
+
+  <buildtool_depend>ament_python</buildtool_depend>
+
+  <exec_depend>rclpy</exec_depend>
+  <exec_depend>sensor_msgs</exec_depend>
+
+  <export>
+    <build_type>ament_python</build_type>
+  </export>
+</package>
